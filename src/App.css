@@ -1,38 +1,58 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label {
+  display: block;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  margin-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.tulos {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.alipaino {
+  background-color: #A1C7FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.normaali {
+  background-color: #D8FFE8;
+}
+
+.lievä {
+  background-color: #FFF2C0;
+}
+
+.merkittävä {
+  background-color: #FFD72B;
+}
+
+.vaikea {
+  background-color: #FF8306;
+}
+
+.sairaalloinen {
+  background-color: #FF1B01;
 }
