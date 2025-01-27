@@ -39,7 +39,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="App">
+    <div className="sovellus">
       <h1>Painoindeksilaskuri</h1>
       <div>
         <label>
